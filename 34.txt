@@ -1,0 +1,2323 @@
+Last login: Tue Nov  7 22:38:46 on ttys001
+soniyanitinkadam@Soniyas-MacBook-Air ~ % ssh kadamso@gw.colosseum.net
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-166-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed 08 Nov 2023 03:41:32 AM UTC
+
+  System load:    0.78                Processes:               201
+  Usage of /home: 14.8% of 245.02GB   Users logged in:         1
+  Memory usage:   4%                  IPv4 address for enp1s0: 172.16.1.200
+  Swap usage:     0%
+
+
+160 updates can be installed immediately.
+2 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+
+Last login: Wed Nov  8 03:39:18 2023 from 172.16.1.1
+kadamso@gw:~$ ssh root@eece5155-bos-034
+The authenticity of host 'eece5155-bos-034 (172.18.134.100)' can't be established.
+ECDSA key fingerprint is SHA256:KLBG5ZamdRgDUzzEIEnUgnFg5g/brrHE67W3Mv7cs+g.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'eece5155-bos-034' (ECDSA) to the list of known hosts.
+Warning: the ECDSA host key for 'eece5155-bos-034' differs from the key for the IP address '172.18.134.100'
+Offending key for IP in /home/kadamso/.ssh/known_hosts:4
+Are you sure you want to continue connecting (yes/no)? yes
+root@eece5155-bos-034's password: 
+Last login: Wed Nov  2 12:43:18 2022 from 172.16.1.200
+root@eece5155-bos-webinar-interactive-v1-srn34:~# cd utils
+root@eece5155-bos-webinar-interactive-v1-srn34:~/utils# ./uhd_rx_fft.sh
+linux; GNU C++ version 5.4.0 20160609; Boost_105800; UHD_003.009.005-0-g32951af2
+
+
+Creating the usrp device with: ...
+-- X300 initialization sequence...
+-- Determining maximum frame size... 8000 bytes.
+-- Setup basic communication...
+-- Loading values from EEPROM...
+-- Setup RF frontend clocking...
+-- Radio 1x clock:200
+-- Detecting internal GPSDO.... No GPSDO found
+-- Initialize Radio0 control...
+-- Performing register loopback test... pass
+-- Initialize Radio1 control...
+-- Performing register loopback test... pass
+Using Device: Single USRP:
+  Device: X-Series Device
+  Mboard 0: X310
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: UBX RX
+  RX Channel: 1
+    RX DSP: 1
+    RX Dboard: B
+    RX Subdev: UBX RX
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: UBX TX
+  TX Channel: 1
+    TX DSP: 1
+    TX Dboard: B
+    TX Subdev: UBX TX
+
+Setting RX Rate: 1.000000 Msps...
+Actual RX Rate: 1.000000 Msps...
+
+Setting RX Freq: 1010.000000 MHz...
+Actual RX Freq: 1010.000000 MHz...
+
+Setting RX Gain: 20.000000 dB...
+Actual RX Gain: 20.000000 dB...
+
+Checking RX: RXLO: locked ...
+root@eece5155-bos-webinar-interactive-v1-srn34:~/utils# nano uhd_rx_fft.sh
+root@eece5155-bos-webinar-interactive-v1-srn34:~/utils# ./uhd_rx_fft.sh
+linux; GNU C++ version 5.4.0 20160609; Boost_105800; UHD_003.009.005-0-g32951af2
+
+
+Creating the usrp device with: ...
+-- X300 initialization sequence...
+-- Determining maximum frame size... 8000 bytes.
+-- Setup basic communication...
+-- Loading values from EEPROM...
+-- Setup RF frontend clocking...
+-- Radio 1x clock:200
+-- Initialize Radio0 control...
+-- Performing register loopback test... pass
+-- Initialize Radio1 control...
+-- Performing register loopback test... pass
+Using Device: Single USRP:
+  Device: X-Series Device
+  Mboard 0: X310
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: UBX RX
+  RX Channel: 1
+    RX DSP: 1
+    RX Dboard: B
+    RX Subdev: UBX RX
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: UBX TX
+  TX Channel: 1
+    TX DSP: 1
+    TX Dboard: B
+    TX Subdev: UBX TX
+
+Setting RX Rate: 1.000000 Msps...
+Actual RX Rate: 1.000000 Msps...
+
+Setting RX Freq: 990.000000 MHz...
+Actual RX Freq: 990.000000 MHz...
+
+Setting RX Gain: 20.000000 dB...
+Actual RX Gain: 20.000000 dB...
+
+Checking RX: RXLO: locked ...
+root@eece5155-bos-webinar-interactive-v1-srn34:~/utils# nano uhd_rx_fft.sh
+root@eece5155-bos-webinar-interactive-v1-srn34:~/utils# ./uhd_rx_fft.sh
+linux; GNU C++ version 5.4.0 20160609; Boost_105800; UHD_003.009.005-0-g32951af2
+
+
+Creating the usrp device with: ...
+-- X300 initialization sequence...
+-- Determining maximum frame size... 8000 bytes.
+-- Setup basic communication...
+-- Loading values from EEPROM...
+-- Setup RF frontend clocking...
+-- Radio 1x clock:200
+-- Initialize Radio0 control...
+-- Performing register loopback test... pass
+-- Initialize Radio1 control...
+-- Performing register loopback test... pass
+Using Device: Single USRP:
+  Device: X-Series Device
+  Mboard 0: X310
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: UBX RX
+  RX Channel: 1
+    RX DSP: 1
+    RX Dboard: B
+    RX Subdev: UBX RX
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: UBX TX
+  TX Channel: 1
+    TX DSP: 1
+    TX Dboard: B
+    TX Subdev: UBX TX
+
+Setting RX Rate: 1.000000 Msps...
+Actual RX Rate: 1.000000 Msps...
+
+Setting RX Freq: 900.000000 MHz...
+Actual RX Freq: 900.000000 MHz...
+
+Setting RX Gain: 20.000000 dB...
+Actual RX Gain: 20.000000 dB...
+
+Checking RX: RXLO: locked ...
+root@eece5155-bos-webinar-interactive-v1-srn34:~/utils# /root/interactive_scripts/tap_setup.sh
+tr0 IP: 192.168.134.1
+SRN ID: 134
+tap interface created successfully
+tap0 IP: 172.20.22.134
+tap0 mac: AA:BB:CC:DD:EE:86
+root@eece5155-bos-webinar-interactive-v1-srn34:~/utils# /root/interactive_scripts/route_setup.sh 134
+route setup for 192.168.134.0/24 completed successfully
+root@eece5155-bos-webinar-interactive-v1-srn34:~/utils# /root/interactive_scripts/modem_start.sh
+linux; GNU C++ version 5.4.0 20160609; Boost_105800; UHD_003.009.005-0-g32951af2
+
+MAPPER: encoding: 0
+set_min_output_buffer on block 9 to 397056
+set_min_output_buffer on block 11 to 397056
+set_min_output_buffer on block 13 to 397056
+set_min_output_buffer on block 14 to 397056
+set_min_output_buffer on block 16 to 397056
+-- X300 initialization sequence...
+-- Determining maximum frame size... 8000 bytes.
+-- Setup basic communication...
+-- Loading values from EEPROM...
+-- Setup RF frontend clocking...
+-- Radio 1x clock:200
+-- Initialize Radio0 control...
+-- Performing register loopback test... pass
+-- Initialize Radio1 control...
+-- Performing register loopback test... pass
+set_min_output_buffer on block 30 to 100000000
+Allocated virtual ethernet interface: tap0
+You must now use ifconfig to set its IP address. E.g.,
+  $ sudo ifconfig tap0 192.168.200.1
+Be sure to use a different address in the same subnet for each machine.
+
+set_min_output_buffer on block 32 to 100000000
+unknown ether type
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 0
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+x.......`....$..................................:..........&........................
+unknown ether type
+
+new mac frame  (length 96)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 1
+mac 1: 33:33:ff:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........`.....:...................................).....................
+unknown ether type
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 2
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........`....$..................................:..........&........................
+unknown ether type
+unknown ether type
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 3
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+x.......`....$..................................:...................................
+
+new mac frame  (length 88)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 4
+mac 1: 33:33:0:0:0:2
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+x.......`.....:.................................................
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 3
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+ ...*...`....$..................................:...................................
+
+new mac frame  (length 88)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 4
+mac 1: 33:33:0:0:0:2
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+0...*...`.....:.................................................
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 5
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+....*...`....$..................................:...................................
+unknown ether type
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 5
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........`....$..................................:...................................
+unknown ether type
+
+new mac frame  (length 88)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 6
+mac 1: 33:33:0:0:0:2
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........`.....:.................................................
+
+new mac frame  (length 88)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 6
+mac 1: 33:33:0:0:0:2
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........`.....:.................................................
+unknown ether type
+
+new mac frame  (length 88)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 7
+mac 1: 33:33:0:0:0:2
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........`.....:.................................................
+
+new mac frame  (length 88)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 7
+mac 1: 33:33:0:0:0:2
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+P...*...`.....:.................................................
+^Croot@eece5155-bos-webinar-interactive-v1-srn34:~/utils# 
+root@eece5155-bos-webinar-interactive-v1-srn34:~/utils# /root/interactive_scripts/route_setup.sh 134
+SIOCADDRT: File exists
+route setup for 192.168.134.0/24 completed successfully
+root@eece5155-bos-webinar-interactive-v1-srn34:~/utils# /root/interactive_scripts/route_setup.sh 133
+route setup for 192.168.133.0/24 completed successfully
+root@eece5155-bos-webinar-interactive-v1-srn34:~/utils# /root/interactive_scripts/modem_start.sh
+linux; GNU C++ version 5.4.0 20160609; Boost_105800; UHD_003.009.005-0-g32951af2
+
+MAPPER: encoding: 0
+set_min_output_buffer on block 9 to 397056
+set_min_output_buffer on block 11 to 397056
+set_min_output_buffer on block 13 to 397056
+set_min_output_buffer on block 14 to 397056
+set_min_output_buffer on block 16 to 397056
+-- X300 initialization sequence...
+-- Determining maximum frame size... 8000 bytes.
+-- Setup basic communication...
+-- Loading values from EEPROM...
+-- Setup RF frontend clocking...
+-- Radio 1x clock:200
+-- Initialize Radio0 control...
+-- Performing register loopback test... pass
+-- Initialize Radio1 control...
+-- Performing register loopback test... pass
+set_min_output_buffer on block 30 to 100000000
+Allocated virtual ethernet interface: tap0
+You must now use ifconfig to set its IP address. E.g.,
+  $ sudo ifconfig tap0 192.168.200.1
+Be sure to use a different address in the same subnet for each machine.
+
+set_min_output_buffer on block 32 to 100000000
+unknown ether type
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 0
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+x..4....`....$..................................:...................................
+unknown ether type
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 1
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+...4....`....$..................................:...................................
+^Croot@eece5155-bos-webinar-interactive-v1-srn34:~/utils# 
+root@eece5155-bos-webinar-interactive-v1-srn34:~/utils# cd
+root@eece5155-bos-webinar-interactive-v1-srn34:~# route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+172.16.1.200    172.18.134.1    255.255.255.255 UGH   0      0        0 can0
+172.18.134.0    0.0.0.0         255.255.255.0   U     0      0        0 can0
+172.20.22.0     0.0.0.0         255.255.255.0   U     0      0        0 tap0
+172.30.133.0    0.0.0.0         255.255.255.0   U     0      0        0 col0
+192.168.40.0    0.0.0.0         255.255.255.0   U     0      0        0 usrp0
+192.168.133.0   172.20.22.133   255.255.255.0   UG    0      0        0 tap0
+192.168.134.0   172.20.22.134   255.255.255.0   UG    0      0        0 tap0
+192.168.134.0   0.0.0.0         255.255.255.0   U     0      0        0 tr0
+root@eece5155-bos-webinar-interactive-v1-srn34:~# cd interactive_scripts
+root@eece5155-bos-webinar-interactive-v1-srn34:~/interactive_scripts# ./modem_start.sh
+linux; GNU C++ version 5.4.0 20160609; Boost_105800; UHD_003.009.005-0-g32951af2
+
+MAPPER: encoding: 0
+set_min_output_buffer on block 9 to 397056
+set_min_output_buffer on block 11 to 397056
+set_min_output_buffer on block 13 to 397056
+set_min_output_buffer on block 14 to 397056
+set_min_output_buffer on block 16 to 397056
+-- X300 initialization sequence...
+-- Determining maximum frame size... 8000 bytes.
+-- Setup basic communication...
+-- Loading values from EEPROM...
+-- Setup RF frontend clocking...
+-- Radio 1x clock:200
+-- Initialize Radio0 control...
+-- Performing register loopback test... pass
+-- Initialize Radio1 control...
+-- Performing register loopback test... pass
+set_min_output_buffer on block 30 to 100000000
+Allocated virtual ethernet interface: tap0
+You must now use ifconfig to set its IP address. E.g.,
+  $ sudo ifconfig tap0 192.168.200.1
+Be sure to use a different address in the same subnet for each machine.
+
+set_min_output_buffer on block 32 to 100000000
+unknown ether type
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 0
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+x..P....`....$..................................:...................................
+^Croot@eece5155-bos-webinar-interactive-v1-srn34:~/interactive_scripts# 
+root@eece5155-bos-webinar-interactive-v1-srn34:~/interactive_scripts# 
+root@eece5155-bos-webinar-interactive-v1-srn34:~/interactive_scripts# ./route_setup.sh 133
+SIOCADDRT: File exists
+route setup for 192.168.133.0/24 completed successfully
+root@eece5155-bos-webinar-interactive-v1-srn34:~/interactive_scripts# ./modem_start.sh
+linux; GNU C++ version 5.4.0 20160609; Boost_105800; UHD_003.009.005-0-g32951af2
+
+MAPPER: encoding: 0
+set_min_output_buffer on block 9 to 397056
+set_min_output_buffer on block 11 to 397056
+set_min_output_buffer on block 13 to 397056
+set_min_output_buffer on block 14 to 397056
+set_min_output_buffer on block 16 to 397056
+-- X300 initialization sequence...
+-- Determining maximum frame size... 8000 bytes.
+-- Setup basic communication...
+-- Loading values from EEPROM...
+-- Setup RF frontend clocking...
+-- Radio 1x clock:200
+-- Initialize Radio0 control...
+-- Performing register loopback test... pass
+-- Initialize Radio1 control...
+-- Performing register loopback test... pass
+set_min_output_buffer on block 30 to 100000000
+Allocated virtual ethernet interface: tap0
+You must now use ifconfig to set its IP address. E.g.,
+  $ sudo ifconfig tap0 192.168.200.1
+Be sure to use a different address in the same subnet for each machine.
+
+set_min_output_buffer on block 32 to 100000000
+unknown ether type
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 0
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+x.......`....$..................................:...................................
+unknown ether type
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 1
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........`....$..................................:...................................
+ether type: ARP 
+
+new mac frame  (length 60)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 2
+mac 1: ff:ff:ff:ff:ff:ff
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+....................................
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 0
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+x.......`....$..................................:...................................
+
+new mac frame  (length 60)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 1
+mac 1: ff:ff:ff:ff:ff:ff
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+ether type: IP
+....................................
+ether type: ARP 
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 3
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.5
+........E..T..@.@.fh..........ie......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 60)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 4
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+....................................
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 2
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+ether type: IP
+........E..T..@.@.Y]..........r.......Ke.....w...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 5
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.666667
+........E..TG...@.)...........z.......Ke.....w...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 3
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+ether type: IP
+........E..T.K@.@.Y...........".......Ke.....u...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 4
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.<..@..(..........qe......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 6
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.5
+........E..TG...@.)...........*.......Ke.....u...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 5
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........`....$..................................:...................................
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 7
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.5
+........E..T..@.@.e............_......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 6
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T.S..@..............`......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 7
+mac 1: aa:bb:cc:ddether type: IP:
+ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.X...........ny......Ke.....|...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 8
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..TH...@.(...........vy......Ke.....|...................... !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 9
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.d...........{[......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 8
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T.T..@..............[......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 9
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: ether type: IP
+0
+........E..T.%@.@.X@...........r......Ke....B....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 10
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..TH...@.(i...........r......Ke....B....................... !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 11
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.d............V......Ke....O....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 10
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@..............V......Ke....O....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 11
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+ether type: IP
+........E..T..@.@.W............i......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 12
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..TI]..@.(............i......Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 13
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.c............S......Ke....Y....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 12
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@..y...........S......Ke....Y....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 13
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: ether type: IP
+0
+........E..T..@.@.V...........-c......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 14
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..TIn..@.'...........5c......Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 15
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.c]...........N......Ke....^....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 14
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@..............N......Ke....^....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 15
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: ether type: IP
+0
+........E..T..@.@.Vl..........?Z......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 16
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..TI...@.'...........GZ......Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 17
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.b............I......Ke....3....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 16
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@..............I......Ke....3....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 17
+mac 1: aa:bb:ether type: IPcc
+:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.U............Q......Ke....?....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 18
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..TJW..@.'............Q......Ke....?....................... !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 19
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.a...........;E......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 18
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.............CE......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 19
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+.......ether type: IP.E.
+.T..@.@.Uw..........(I......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 20
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..TJ...@.&...........0I......Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 21
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.a...........Y@......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 20
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.............a@......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 21
+mac 1: aa:bb:cc:ddether type: IP:
+ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.T...........?D......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 22
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..TKT..@.&...........GD......Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 23
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.I@.@.a............;......Ke....~....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 22
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T.j..@..............;......Ke....~....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 23
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.T...........y;......Ke....}....................... !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 24
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..TLL..@.%............;......Ke....}....................... !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 25
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.`...........q8......Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 24
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.............y8......Ke............................ !"#$%&'()*+,-./01234567
+^Croot@eece5155-bos-webinar-interactive-v1-srn34:~/interactive_scripts# 
+root@eece5155-bos-webinar-interactive-v1-srn34:~/interactive_scripts# ./modem_start.sh
+linux; GNU C++ version 5.4.0 20160609; Boost_105800; UHD_003.009.005-0-g32951af2
+
+MAPPER: encoding: 0
+set_min_output_buffer on block 9 to 397056
+set_min_output_buffer on block 11 to 397056
+set_min_output_buffer on block 13 to 397056
+set_min_output_buffer on block 14 to 397056
+set_min_output_buffer on block 16 to 397056
+-- X300 initialization sequence...
+-- Determining maximum frame size... 8000 bytes.
+-- Setup basic communication...
+-- Loading values from EEPROM...
+-- Setup RF frontend clocking...
+-- Radio 1x clock:200
+-- Initialize Radio0 control...
+-- Performing register loopback test... pass
+-- Initialize Radio1 control...
+-- Performing register loopback test... pass
+set_min_output_buffer on block 30 to 100000000
+Allocated virtual ethernet interface: tap0
+You must now use ifconfig to set its IP address. E.g.,
+  $ sudo ifconfig tap0 192.168.200.1
+Be sure to use a different address in the same subnet for each machine.
+
+set_min_output_buffer on block 32 to 100000000
+unknown ether type
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 0
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+x...j...`....$..................................:...................................
+unknown ether type
+
+new mac frame  (length 108)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 1
+mac 1: 33:33:0:0:0:16
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+....j...`....$..................................:...................................
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 2
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.8@.@.>-.............(....Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 2
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tf...@................(....Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 3
+mac 1: aa:bb:cc:dd:eeether type: IP:
+86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.=O..........7..(....Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 3
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tg-..@..9..........?..(....Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 4
+mac 1: aa:bb:cc:dd:ee:86
+ether type: IPmac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 
+0
+........E..T..@.@.<i.............(....Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 4
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tg7..@../.............(....Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 5
+mac 1: aa:bb:cc:dd:eeether type: IP:
+86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.;..............(....Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 5
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tg...@................(....Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 6
+mac 1: aa:bb:cc:dd:ether type: IPee
+:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.=@.@.;(.............(....Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 6
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tg...@..|.............(....Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 7
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.<M...........?......Ke....&n...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 7
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.vE...........?......Ke....&n...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 8
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:ether type: IP85
+
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.:..............(....Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 8
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Th...@................(....Ke............................ !"#$%&'()*+,-./01234567
+ether type: ARP 
+
+new mac frame  (length 60)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 9
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+....................................
+
+new mac frame  (length 60)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 9
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+....................................
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 10
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.;x...........A......Ke.....k...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 10
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.uW..........%A......Ke.....k...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 11
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: ether type: IP0
+
+........E..T..@.@.:_..........a..(....Ke....n....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 11
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Til..@.............i..(....Ke....n....................... !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 12
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.;q...........?......Ke.....k...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 12
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.t............?......Ke.....k...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 13
+mac 1: aa:bb:cc:dd:ee:ether type: IP86
+mac 2: aa:bb:cc:dd:ee:
+85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.$@.@.:A..........u..(....Ke....Y....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 13
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Ti...@.............}..(....Ke....Y....................... !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 14
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.f@.@.:............?......Ke.....k...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 14
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T.(..@.t<...........?......Ke.....k...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+ether type: IPseq nr: 
+15
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.9y..........[..(....Ke....r....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 15
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tj>..@..(..........c..(....Ke....r....................... !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 16
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.2@.@.:2...........=......Ke.....l...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 16
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T.C..@.t!...........=......Ke.....l...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 17
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: ether type: IP
+0
+........E..T..@.@.9Z.............(....Ke....K....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 17
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tk...@..L.............(....Ke....K....................... !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 18
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.r@.@.9............>......Ke.....j...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 18
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T.~..@.s............>......Ke.....j...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 19
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: ether type: IP
+0
+........E..T..@.@.8...........p..(....Ke....[....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 19
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..TkF..@.. ..........x..(....Ke....[....................... !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 20
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.9............=......Ke.....j...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 20
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.sz...........=......Ke.....j...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 21
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: ether type: IP
+0
+........E..T..@.@.8..............(....Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 21
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tk...@................(....Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 22
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.9............<......Ke.....j...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 22
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.r............<......Ke.....j...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 23
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: ether type: IP0
+........E..T..@.@
+.8Q.............(....Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 23
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tl...@................(....Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 24
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.6@.@.9............;......Ke.....i...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 24
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.ry...........;......Ke.....i...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 25
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: ether type: IP0
+
+........E..T..@.@.7..............(....Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 25
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tm...@..d.............(....Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 26
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.8............:......Ke.....i...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 26
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.rg...........:......Ke.....i...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 27
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: ether type: IP
+0
+........E..T..@.@.6..............(....Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 27
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tm...@..Z.............(....Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 28
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.G@.@.8...........&:......Ke.....i...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 28
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.qv...........:......Ke.....i...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 29
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+ether type: IP
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.N@.@.6...........7..(....Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 29
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tm...@.............?..(....Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 30
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.8@.@.7,...........:......Ke.....g...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 30
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.p............:......Ke.....g...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 31
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: ether type: IP
+0
+........E..T.u@.@.5...........%..(.. .Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 31
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tn...@.............-..(.. .Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 32
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.w@.@.6........... :.... .Ke.....g...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 32
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.p...........(:.... .Ke.....g...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 33
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+ether type: IP
+........E..T.o@.@.4..............(..!.Ke....%....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 33
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..ToR..@................(..!.Ke....%....................... !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 34
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.6U.......... 9....!.Ke.....g...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 34
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.p...........(9....!.Ke.....g...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 35
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: ether type: IP
+0
+........E..T.:@.@.4+.............(..".Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 35
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..To...@................(..".Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 36
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.E@.@.6...........08....".Ke.....g...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 36
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.o...........88....".Ke.....g...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 37
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42ether type: IP:
+42:42
+instantaneous fer: 0
+........E..T..@.@.3Q.............(..#.Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 37
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tpb..@................(..#.Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 38
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T.2@.@.52..........J7....#.Ke....rg...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 38
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T.C..@.o"..........R7....#.Ke....rg...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 39
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: ether type: IP
+0
+........E..T.%@.@.3@.............(..$.Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 39
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tp...@................(..$.Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 40
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T. @.@.4D..........M6....$.Ke....ng...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 40
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T....@.n...........U6....$.Ke....ng...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 41
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+ether type: IP
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.2..............(..%.Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 41
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tp...@............."..(..%.Ke............................ !"#$%&'()*+,-./01234567
+ether type: IP
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 42
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.3{...........7....%.Ke.....e...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 42
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..T."..@.nC..........!7....%.Ke.....e...................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 43
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+ether type: IP
+........E..T..@.@.2...........-..(..&.Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 43
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tq...@.............5..(..&.Ke............................ !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 44
+ether type: IP
+mac 1: aa:bb:cc:dd:ee:86
+mac 2: aa:bb:cc:dd:ee:85
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0
+........E..T..@.@.1...........]..(..'.Ke....a....................... !"#$%&'()*+,-./01234567
+
+new mac frame  (length 116)
+=========================================
+duration: 00 00
+frame control: 00 08 (DATA)
+Subtype: Data
+seq nr: 44
+mac 1: aa:bb:cc:dd:ee:85
+mac 2: aa:bb:cc:dd:ee:86
+mac 3: 42:42:42:42:42:42
+instantaneous fer: 0.999756
+........E..Tr...@..Y..........e..(..'.Ke....a....................... !"#$%&'()*+,-./01234567
+^Croot@eece5155-bos-webinar-interactive-v1-srn34:~/interactive_scripts# 
+root@eece5155-bos-webinar-interactive-v1-srn34:~/interactive_scripts# cd
+root@eece5155-bos-webinar-interactive-v1-srn34:~# tcpdump -i tr0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on tr0, link-type EN10MB (Ethernet), capture size 262144 bytes
+04:21:50.080735 LLDP, length 255: R11Traffic
+04:21:55.085678 LLDP, length 255: R11Traffic
+04:22:00.088888 LLDP, length 255: R11Traffic
+04:22:05.094447 LLDP, length 255: R11Traffic
+04:22:10.096983 LLDP, length 255: R11Traffic
+04:22:15.105143 LLDP, length 255: R11Traffic
+04:22:20.108957 LLDP, length 255: R11Traffic
+04:22:25.113228 LLDP, length 255: R11Traffic
+04:22:30.117273 LLDP, length 255: R11Traffic
+04:22:35.121474 LLDP, length 255: R11Traffic
+04:22:40.125219 LLDP, length 255: R11Traffic
+04:22:45.131919 LLDP, length 255: R11Traffic
+04:22:50.133346 LLDP, length 255: R11Traffic
+04:22:55.140481 LLDP, length 255: R11Traffic
+04:23:00.141553 LLDP, length 255: R11Traffic
+04:23:05.148433 LLDP, length 255: R11Traffic
+04:23:10.149721 LLDP, length 255: R11Traffic
+04:23:15.157470 LLDP, length 255: R11Traffic
+04:23:20.158668 LLDP, length 255: R11Traffic
+04:23:25.167565 LLDP, length 255: R11Traffic
+04:23:30.202724 LLDP, length 255: R11Traffic
+04:23:35.213650 LLDP, length 255: R11Traffic
+04:23:40.218829 LLDP, length 255: R11Traffic
+04:23:45.229818 LLDP, length 255: R11Traffic
+04:23:50.226225 LLDP, length 255: R11Traffic
+04:23:55.233754 LLDP, length 255: R11Traffic
+04:24:00.234599 LLDP, length 255: R11Traffic
+04:24:05.238336 LLDP, length 255: R11Traffic
+04:24:10.235309 LLDP, length 255: R11Traffic
+04:24:15.305580 LLDP, length 255: R11Traffic
+04:24:20.272049 LLDP, length 255: R11Traffic
+04:24:25.277689 LLDP, length 255: R11Traffic
+04:24:30.278612 LLDP, length 255: R11Traffic
+04:24:35.286406 LLDP, length 255: R11Traffic
+^C
+34 packets captured
+34 packets received by filter
+0 packets dropped by kernel
+root@eece5155-bos-webinar-interactive-v1-srn34:~# Connection to eece5155-bos-034 closed by remote host.
+Connection to eece5155-bos-034 closed.
+kadamso@gw:~$ 
